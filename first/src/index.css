@@ -1,0 +1,120 @@
+#navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#E96E50;
+   
+    
+}
+.tabs{
+    list-style-type: none;
+    margin: 0;
+    font-size: 25px;
+    padding: 20px 20px 15px 10px;
+    float: left;
+    display: block;
+
+  text-align: center;
+  cursor: pointer;
+
+}
+.tabs a
+{
+   text-decoration: none;
+   color: white;
+    
+}
+.tabs:hover
+{
+    background-color:#40494A;
+}
+
+#city_input
+{
+  font-size: 30px;
+  border-start-end-radius: 25px;
+  border-end-end-radius: 25px;
+  margin-top: 10px;
+  padding-left: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: none;
+  width: 25%;
+  float:right;
+  margin-right: 10%;
+ 
+}
+#city_input:focus-visible
+{
+  
+  border: none;
+}
+input:focus-visible
+{
+    border:none;
+}
+
+
+
+#card
+{
+    position: fixed;
+    top:15%;
+    width:25%;
+    left:35%;
+    background-color:lightgray;
+    padding-bottom: 3%;
+    opacity: 0.8;
+}
+.inside
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+
+}
+.span_tags
+{
+    float: right;
+}
+.icon
+{
+    font-size: 20px;
+    border-start-start-radius: 25px;
+    border-end-start-radius: 25px;
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 11.5px;
+    padding-left: 8px;
+    padding-bottom: 4.9px;
+    padding-right: 10px;
+    cursor: pointer;
+    float:right;
+  
+}
+#cloud_image
+{
+    width: 40%;
+    padding-left: 30%;
+    padding-right: 10%;
+    
+}
+
+#weather
+{
+    text-align: center;
+    font-size: 50px;
+}
+#total
+{
+   
+}
+html, body {
+    margin: 0;
+    height: 100%;
+    background-image:url('morning.jfif');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
